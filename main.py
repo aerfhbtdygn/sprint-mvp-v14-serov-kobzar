@@ -106,7 +106,7 @@ def body_mass_index():
  
 MENU.append(("Индекс массы тела", body_mass_index))
 
-
+ 
 # ===== US-6. Самый частый вид тренировки =====
 def favorite_type():
     if len(workouts) == 0:
